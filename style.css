@@ -1,0 +1,86 @@
+:root{
+
+ --Light-Cyan: hsl(193, 38%, 86%);
+ --Neon-Green: hsl(150, 100%, 66%);
+ --Grayish-Blue: hsl(217, 19%, 38%);
+ --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+ --Dark-Blue: hsl(218, 23%, 16%);
+
+
+
+}
+
+body{
+
+    background-color: var(--Dark-Blue);
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Manrope;
+}
+.main-Container{
+    background-color: var(--Dark-Grayish-Blue);
+    color: var(--Light-Cyan);
+text-align: center;
+padding-top: 3em;
+height:auto;
+width: 25em;
+border-radius: .5em;
+
+
+p{
+    color: var(--Neon-Green);
+    font-weight: 600;
+}/* might be the dumbest thing i've done in css, but i've seen someone do it and it looked cool.*/
+}
+#ImgDivider{
+margin-bottom: 3em;
+   
+}
+#ImgBtn{
+
+    background-color: var(--Neon-Green);
+display: flex;
+flex-direction: column;
+margin-left: -1em;
+margin-top: -2em;
+
+padding: 1.5em;
+
+border: none;
+cursor: pointer;
+border-radius: 3em;
+}
+#ImgBtn:hover{
+    box-shadow: 10px 14px 103px 21px rgba(82,255,169,1);
+    -moz-box-shadow: 10px 14px 103px 21px rgba(82,255,169,1);
+    box-shadow: 10px 14px 103px 21px rgba(82,255,169,1);
+   ;
+}
+#cmsg{
+
+    color: white;
+}
+@media screen and (min-width: 1084px) {
+
+   .main-Container{
+    background-color: var(--Dark-Grayish-Blue);
+    color: var(--Light-Cyan);
+text-align: center;
+padding-top: 3em;
+height:auto;
+width: 35em;
+border-radius: .5em;
+
+
+p{
+    color: var(--Neon-Green);
+    font-weight: 600;
+}/* might be the dumbest thing i've done in css, but i've seen someone do it and it looked cool.*/
+}
+
+
+  }
